@@ -1,6 +1,15 @@
 {
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#cd7800",
+					"name": "WAS Primary",
+					"slug": "custom-was-primary"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "620px",
 			"wideSize": "1000px"
@@ -27,6 +36,13 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--custom-was-primary)"
+				}
+			}
+		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--system-font)"
 		}
